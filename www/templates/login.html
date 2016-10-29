@@ -1,0 +1,16 @@
+<ion-view>
+  <ion-nav-bar> <ion-nav-title> Contact System </ion-nav-title></ion-nav-bar>
+  <ion-content>
+        <div class="list">
+            <label class="item item-input">
+                <span class="input-label">Username</span>
+                <input type="text" ng-model="form.txt_usr" placeholder="ชื่อผู้ใช้"> </input>
+             </label>
+             <label class="item item-input">
+                <span class="input-label">Password</span>
+                <input type="password" ng-model="form.txt_pwd" placeholder="รหัสผ่าน"></input>
+             </label>
+             <button class="button button-full" ng-click="btnLogin()">Login</button>
+        </div>
+  </ion-content>
+</ion-view>
